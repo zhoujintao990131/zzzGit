@@ -1,0 +1,12 @@
+逻辑回归
+Training accuracy: 92.68%
+Testing accuracy: 90.30%
+贝叶斯
+Training accuracy: 84.47%
+Testing accuracy: 84.70%
+未改参数的SVC
+Training accuracy: 98.18%
+Testing accuracy: 88.00%
+改参数的SVC
+Training accuracy: 91.05%
+Testing accuracy: 90.20%

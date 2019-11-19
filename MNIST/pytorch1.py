@@ -7,8 +7,8 @@ from tqdm import tqdm
 import time
 import torch.optim as optim
 import matplotlib.pyplot as plt
-BATCH_SIZE = 128
-NUM_EPOCHS = 10
+BATCH_SIZE = 100
+NUM_EPOCHS = 100
 
 # preprocessing
 normalize = transforms.Normalize(mean=[.5], std=[.5])
@@ -31,9 +31,9 @@ class Znet(nn.Module):
         self.pool2=nn.MaxPool2d(kernel_size=(2,2))
         self.drop1=nn.Dropout2d(0.3)
         # self.flat=nn.Linear(64*3*3,64*3*3)
-        self.dense1=nn.Linear(1600,128)
+        self.dense1=nn.Linear(1600,100)
         self.drop2=nn.Dropout2d(0.5)
-        self.dense2=nn.Linear(128,10)
+        self.dense2=nn.Linear(100,10)
     def forward(self,x):
         x=nn.functional.relu(self.conv1(x))
         x=self.pool1(x)
