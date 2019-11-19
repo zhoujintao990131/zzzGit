@@ -8,7 +8,7 @@ import time
 import torch.optim as optim
 import matplotlib.pyplot as plt
 BATCH_SIZE = 100
-NUM_EPOCHS = 100
+NUM_EPOCHS = 10
 
 # preprocessing
 normalize = transforms.Normalize(mean=[.5], std=[.5])
