@@ -1,0 +1,11 @@
+{
+    "python.pythonPath": "/home/zjt990131/anaconda3/envs/py3.5/bin/python",
+    "python.linting.pylintArgs":[
+        "pylint_django",
+        "--load-plugins"
+    ],
+    "python.linting.flake8Args":[
+        "--max-line-length=1000",
+        "--extend.ignore=E231"
+    ]
+}

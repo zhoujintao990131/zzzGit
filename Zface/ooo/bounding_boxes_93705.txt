@@ -1,0 +1,4 @@
+/home/zjt990131/文档/zjt/facenet/Zface/ooo/合照3/合照3_0.png 704 488 794 598
+/home/zjt990131/文档/zjt/facenet/Zface/ooo/合照3/合照3_1.png 366 351 436 431
+/home/zjt990131/文档/zjt/facenet/Zface/ooo/合照3/合照3_2.png 928 388 1001 475
+/home/zjt990131/文档/zjt/facenet/Zface/ooo/合照3/合照3_3.png 683 296 730 345

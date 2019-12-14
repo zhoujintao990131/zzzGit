@@ -1,0 +1,12 @@
+/home/zjt990131/文档/zjt/facenet/Zface/ooo/合照4/合照4_0.png 269 316 351 409
+/home/zjt990131/文档/zjt/facenet/Zface/ooo/合照4/合照4_1.png 913 370 991 461
+/home/zjt990131/文档/zjt/facenet/Zface/ooo/合照4/合照4_2.png 634 525 779 679
+/home/zjt990131/文档/zjt/facenet/Zface/ooo/合照4/合照4_3.png 816 341 878 408
+/home/zjt990131/文档/zjt/facenet/Zface/ooo/合照4/合照4_4.png 321 675 383 749
+/home/zjt990131/文档/zjt/facenet/Zface/ooo/合照4/合照4_5.png 1061 556 1109 608
+/home/zjt990131/文档/zjt/facenet/Zface/ooo/合照4/合照4_6.png 591 275 636 325
+/home/zjt990131/文档/zjt/facenet/Zface/ooo/合照4/合照4_7.png 871 83 923 137
+/home/zjt990131/文档/zjt/facenet/Zface/ooo/合照4/合照4_8.png 622 525 670 580
+/home/zjt990131/文档/zjt/facenet/Zface/ooo/合照4/合照4_9.png 917 663 970 720
+/home/zjt990131/文档/zjt/facenet/Zface/ooo/合照4/合照4_10.png 1076 440 1120 485
+/home/zjt990131/文档/zjt/facenet/Zface/ooo/合照4/合照4_11.png 1140 493 1190 545
