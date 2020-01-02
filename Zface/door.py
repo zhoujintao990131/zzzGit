@@ -6,7 +6,7 @@ import face
 import numpy as np
 import pandas as pd
 
-text_n=4
+text_n=5
 base_path='gate/'
 video_path=base_path+'door'+str(text_n)+'.mp4'#视频地址，如果不输的话也可以改成摄像头
 video_capture = cv2.VideoCapture(video_path)#读取视频
@@ -89,10 +89,11 @@ for frame in range(TOTAL_FRAME):
     flag,img=video_capture.read()
     TT=frame/FPS*1000#现在的时间（按照帧算的）
     for i in range(len(time_list)):
-        if time_list[i]+gateT1<=TT:
-            x=time_list.pop(i)
-            tmp=liblist.pop(i)#出馆的人
-            cnt_out=0
+        if i < len(time_list):
+            if time_list[i]+gateT1<=TT:
+                x=time_list.pop(i)
+                tmp=liblist.pop(i)#出馆的人
+                cnt_out=0
     cnt_out=cnt_out+1
     if cnt_out<=gateo:
         cv2.putText(img,tmp+' is OUT!!',(15,int(size[1])-70),font,1,(100,50,200),3)

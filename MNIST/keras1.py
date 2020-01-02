@@ -18,6 +18,7 @@ y_test=data['y_test']#y_test表示图像对应的标签测试集
 rows=28
 cols=28
 numcategory=10
+print(x_train.shape)
 input_shape=(rows,cols,1)
 x_train=x_train.reshape(x_train.shape[0],rows,cols,1)
 x_test=x_test.reshape(x_test.shape[0],rows,cols,1)
@@ -27,6 +28,7 @@ x_train/=255
 x_test/=255
 y_train=keras.utils.to_categorical(y_train,numcategory)
 y_test=keras.utils.to_categorical(y_test,numcategory)
+print(x_train.shape)
 ##构建model
 model=Sequential()
 model.add(Conv2D(32,(3,3),input_shape=input_shape,activation='relu'))
