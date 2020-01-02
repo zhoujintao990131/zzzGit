@@ -115,8 +115,8 @@ def wlFeature(img):#纹理特征
                     SI_x=SI_x+(i-j)**2*S[i,j]
     energy_x=energy_x/100
     entropy_x=entropy_x/100
-    SP_z=SP_x/100
-    SI_z=SI_x/100
+    SP_x=SP_x/100
+    SI_x=SI_x/100
 
     feature_wl=[entropy_x,energy_y,energy_z,entropy_x,entropy_y,entropy_z,SP_x,SP_y,SP_z,SI_x,SI_y,SI_z]#12维纹理特征分别是——能量、熵、均匀性、惯量
     return(feature_wl)
