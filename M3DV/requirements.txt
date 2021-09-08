@@ -16,7 +16,7 @@ mccabe==0.6.1
 numpy==1.13.3
 opencv-python==4.1.1.26
 pandas==0.25.3
-Pillow==6.2.1
+Pillow==8.3.2
 protobuf==3.10.0
 pycodestyle==2.5.0
 pyflakes==2.1.1
